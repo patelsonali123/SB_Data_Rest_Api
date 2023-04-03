@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    
+    username: root
+    password: Sonali@95
+    url: jdbc:mysql://localhost:3306/sbms27
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    
+  jpa:
+    hibernate:
+     ddl-auto: create-drop
+    show-sql: true  
+
